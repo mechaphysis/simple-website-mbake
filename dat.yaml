@@ -3,3 +3,5 @@ basedir: .
 ROOT: '/'
 
 title: A simple website built with Mbake
+
+license: 'Licensed under MIT License'
