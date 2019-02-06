@@ -5,16 +5,19 @@ html
         //- For responsiveness:
         meta(name='viewport', content='width=device-width, initial-scale=1')
         title A simple website made with Mbake
-        //- Fonts:
-        link(...complete)
         //- Spectre CSS:
-        link(...complete)
+        link(rel="stylesheet", href="https://unpkg.com/spectre.css/dist/spectre.min.css")
         //- In case something else needs to be added for a specific page:
         block head2
     
     body
-        header
+        header.container.bg-primary
             h1 #{title}
+        ul.nav
+            li.nav-item
+                a(href='#') Home
+            li.nav-item
+                a(href='#') Contact
 
         block main
 
