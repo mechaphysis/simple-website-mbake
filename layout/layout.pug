@@ -11,14 +11,11 @@ html
         block head2
     
     body
-        header.container.bg-primary
-            h1 #{title}
-        ul.nav
-            li.nav-item
-                a(href='#') Home
-            li.nav-item
-                a(href='#') Contact
+        header.navbar
+            section.navbar-section
+                    a(class='navbar-brand mr-2', href='#') Logo
+                    a(class='btn btn-link',href='#') Contact
 
         block main
-
+        
         include /layout/footer
