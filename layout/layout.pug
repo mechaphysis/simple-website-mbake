@@ -7,6 +7,7 @@ html
         title A simple website made with Mbake
         //- Spectre CSS:
         link(rel='stylesheet', href='https://unpkg.com/spectre.css/dist/spectre.min.css')
+        link(rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css")
         link(rel='stylesheet', href='/assets/css/styles.css')
         //- In case something else needs to be added for a specific page:
         block head2
@@ -18,7 +19,7 @@ html
                 a(class='btn btn-link',href='#') Contact
             section.navbar-section
                 form.input-group.input-inline
-                    input(class='form-input', type='text', placeholder='search by keyword')
+                    input(class='form-input', type='text', placeholder='search')
                     button.btn.btn-primary.input-group-btn Search
  
         block main
