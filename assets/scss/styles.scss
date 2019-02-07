@@ -1,9 +1,22 @@
 $primary-color: #4b48d6;
-
+$secondary-color: #e5e5f9;
 .navbar--height-big{
     height: 3.8rem;
 }
 
+.navbar--bg{
+    background: rgba(247,248,249,.65);   
+}
+
+.content--position{
+    padding-top: 4.3rem;
+}
+.hero--gradient{
+background: $primary-color;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, $primary-color, $secondary-color);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, $primary-color, $secondary-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .footer--height-medium{
     height: 1rem;
 }

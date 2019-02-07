@@ -1,11 +1,12 @@
 extends /layout/layout
 
 block main
-        .container.columns
+        .content--position.container.columns
             section.container.col-9
-                article.hero.bg-secondary 
-                    h3 Latest new
-                    p Lorem Ipsum dolor sit amet
+                article.hero.hero-sm.hero--gradient.text-light 
+                    .hero-body
+                        h3 Lorem Ipsum
+                        p Lorem Ipsum dolor sit amet
                 .divider
                 article
                     include:metaMD content.md
@@ -16,6 +17,6 @@ block main
                 article
                     include:metaMD content.md
             aside.container.col-3.bg-secondary
-                h5 Read more
-                p
-                    include:metaMD content.md
+                //- TO-DO: complete
+                ul.accordion
+                    li

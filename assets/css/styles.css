@@ -1,4 +1,7 @@
 .navbar--height-big{height:3.8rem;}
+.navbar--bg{background:rgba(247,248,249,0.65);}
+.content--position{padding-top:4.3rem;}
+.hero--gradient{background:#4b48d6; background:linear-gradient(to right,#4b48d6,#e5e5f9);}
 .footer--height-medium{height:1rem;}
 .m-1-2{margin:1.2rem;}
-.text-s{font-size:0.7rem;} /* mB v4.16.02 on 2019-02-07T10:20:29.012Z */
+.text-s{font-size:0.7rem;} /* mB v4.16.02 on 2019-02-07T11:01:57.523Z */
