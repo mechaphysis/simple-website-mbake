@@ -6,16 +6,21 @@ html
         meta(name='viewport', content='width=device-width, initial-scale=1')
         title A simple website made with Mbake
         //- Spectre CSS:
-        link(rel="stylesheet", href="https://unpkg.com/spectre.css/dist/spectre.min.css")
+        link(rel='stylesheet', href='https://unpkg.com/spectre.css/dist/spectre.min.css')
+        link(rel='stylesheet', href='/assets/css/styles.css')
         //- In case something else needs to be added for a specific page:
         block head2
     
     body
-        header.navbar
+        header.container.navbar.p-fixed.bg-gray.navbar--height-big
             section.navbar-section
-                    a(class='navbar-brand mr-2', href='#') Logo
-                    a(class='btn btn-link',href='#') Contact
-
+                a(class='btn btn-link',href='#') Home
+                a(class='btn btn-link',href='#') Contact
+            section.navbar-section
+                form.input-group.input-inline
+                    input(class='form-input', type='text', placeholder='search by keyword')
+                    button.btn.btn-primary.input-group-btn Search
+ 
         block main
         
         include /layout/footer
